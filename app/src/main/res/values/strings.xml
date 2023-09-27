@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lesson_5.5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="et_title">Title</string>
+    <string name="et_body">Body</string>
+    <string name="btn_go">Post</string>
+    <string name="btn_put">Put</string>
+    <string name="btn_patch">Patch</string>
+    <string name="btn_delete">Delete</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.activity.MainActivity">
+
+    <EditText
+        android:id="@+id/et_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/size_in_fifteen"
+        android:backgroundTint="@color/black"
+        android:hint="@string/et_title" />
+
+    <EditText
+        android:id="@+id/et_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/size_in_fifteen"
+        android:layout_marginTop="@dimen/size_in_twenty"
+        android:backgroundTint="@color/black"
+        android:hint="@string/et_body" />
+
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/size_in_twenty"
+        android:layout_marginTop="@dimen/size_in_twenty"
+        android:backgroundTint="@color/black"
+        android:text="@string/btn_go" />
+
+    <Button
+        android:id="@+id/btn_put"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/size_in_twenty"
+        android:layout_marginTop="@dimen/size_in_twenty"
+        android:backgroundTint="@color/black"
+        android:text="@string/btn_put" />
+
+    <Button
+        android:id="@+id/btn_patch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/size_in_twenty"
+        android:layout_marginTop="@dimen/size_in_twenty"
+        android:backgroundTint="@color/black"
+        android:text="@string/btn_patch" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/size_in_twenty"
+        android:layout_marginTop="@dimen/size_in_twenty"
+        android:backgroundTint="@color/black"
+        android:text="@string/btn_delete" />
+
+</LinearLayout>
